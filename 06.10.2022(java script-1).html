@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div style="text-align: center">
+		<button onclick="PlayPause()">Play/Pause</button>
+		<button onclick="makebig()">Big</button>
+		<button onclick="makesmall()">Small</button>
+		<button onclick="makenormal()">Normal</button><br><br>
+		<video id="video1" width="420">
+			<source src="pasoori.mp4" type="video/mp4">
+		</video>
+	</div>
+	<script>
+		var myvideo = document.getElementById("video1");
+		function PlayPause() {
+        if (myvideo.paused)
+         {
+         myvideo.play();
+         }	
+         else
+         {
+         	myvideo.pause();
+		}
+	}
+		function makeBig() {  
+    myvideo.width = 560;  
+} function makeSmall() {  
+    myvideo.width = 320;  
+} function makeNormal() {  
+    myvideo.width = 420;
+}
+	</script>
+
+
+</body>
+</html>

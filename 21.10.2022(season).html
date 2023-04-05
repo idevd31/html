@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Season</title>
+</head>
+<body>
+	<script>
+		var month=parseInt(prompt("enter month number"));
+		if(month ==1 || month==2)
+		{
+			document.write("winter");
+		}
+		else if(month==3 ||month==4 || month==5)
+		{
+			document.write("spring");
+		}
+		else if(month==6 ||month==7|| month==8)
+		{
+			document.write("summer");
+		}
+		else if(month==9 ||month==10||month==11|| month==12)
+		{
+			document.write("autumn");
+		}
+		else
+		{
+			document.write("enter valid number");
+		}
+	</script>
+
+</body>
+</html>
+------------------------------------
+or
+--------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Season</title>
+</head>
+<body>
+	<script>
+		var month=parseInt(prompt("enter month number"));
+		if(month >=1 && month<=2)
+		{
+			document.write("winter");
+		}
+		else if(month>=3 && month<=5)
+		{
+			document.write("spring");
+		}
+		else if(month>=6 && month<=8)
+		{
+			document.write("summer");
+		}
+		else if(month>=9 && month<=12)
+		{
+			document.write("autumn");
+		}
+		else
+		{
+			document.write("enter valid number");
+		}
+	</script>
+
+</body>
+</html>

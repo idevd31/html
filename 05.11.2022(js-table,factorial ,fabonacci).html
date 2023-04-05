@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table</title>
+</head>
+<body>
+	<script>
+		var n=parseInt(prompt("enter the factorial number:"));
+		fact=1;
+		while(n>0)
+		{
+			var fact=fact*n;
+			/*--15(n)*1(fact)=15(fact@)
+			14(n)*15(fact@)=210(fact1)
+			13(n)*210(fact1)=2730(fact2).
+			.
+			.
+			.
+			.
+			*/
+
+			n--;
+		}
+		document.write(fact +"<br>");
+
+	</script>
+</body>
+</html>
